@@ -1,0 +1,94 @@
+🚀 DevOps Roadmap Progress
+AWS CLI • Shell Scripting • Git & GitHub
+
+This repository documents my hands-on DevOps learning journey, focusing on real-world tooling, best practices, and problem-solving rather than theory alone.
+
+🔐 AWS CLI & Cloud Authentication
+
+Configured IAM Role–based authentication for AWS CLI on an EC2 instance.
+
+Understood why browser-based authentication is unsuitable for headless/server environments.
+
+Verified AWS identity and permissions using STS.
+
+Followed AWS security best practices by avoiding hardcoded access keys.
+
+Outcome:
+Secure, production-style AWS CLI access suitable for automation.
+
+🐚 Shell Scripting for AWS Automation
+
+Built Bash scripts to automate AWS resource exploration.
+
+Executed AWS CLI commands programmatically to inspect:
+
+Configured AWS region
+
+S3 buckets (storage layer)
+
+EC2 instances and their states (compute layer)
+
+Availability Zones
+
+IAM roles (access management)
+
+Improved script clarity using structured output and comments.
+
+Outcome:
+Practical understanding of how shell scripting is used in DevOps to interact with cloud infrastructure.
+
+🌱 Git & Version Control (CLI-Driven)
+
+Managed repositories entirely using the Git command line.
+
+Practiced the full Git lifecycle:
+
+working directory → staging → commit → remote push
+
+
+Used git diff to review changes before committing.
+
+Correctly tracked file additions, updates, and deletions.
+
+Gained clarity on how Git records history vs filesystem changes.
+
+Outcome:
+Confidence working with Git in real DevOps workflows.
+
+🔗 GitHub Integration & Repository Management
+
+Authenticated GitHub CLI operations using Personal Access Tokens (PATs).
+
+Resolved common Git/GitHub issues:
+
+Remote already exists
+
+Push rejected (fetch first)
+
+README and file sync mismatches
+
+Repointed local repositories to existing GitHub repos safely.
+
+Maintained clean commit history and readable documentation.
+
+Outcome:
+End-to-end control of code from local development to GitHub.
+
+🧠 Key DevOps Takeaways
+
+Secure access management is foundational to automation.
+
+Shell scripting is a core DevOps skill, not optional.
+
+Version control discipline matters as much as code.
+
+Real DevOps learning happens through debugging and fixing, not copy-paste setups.
+
+✅ Overall Progress
+
+Strengthened core DevOps foundations by integrating Linux, Bash, AWS CLI, IAM security, and GitHub workflows in a real, hands-on environment.
+
+👀 Why this repo exists
+
+This repository is not a tutorial —
+it is a living record of practical DevOps skill development.
